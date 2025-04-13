@@ -20,7 +20,7 @@ namespace ClassesAndInterfaces.Demonstrations
             Bow bow1 = new Bow(10, "Меткий выстрел", 80, 95);
             GameCharacter<Bow> archer = new GameCharacter<Bow>("Леголас", "Эльф", bow1, 40);
             Console.WriteLine(archer.GetCharacterInfo());
-            Console.WriteLine($"Суммарная сила: {archer.GetTotalStrength()}\n\n\n\n");
+            Console.WriteLine($"Суммарная сила: {archer.GetTotalStrength()}");
         }
     }
 }
